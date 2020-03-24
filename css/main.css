@@ -271,13 +271,19 @@ body {
 .active {
     background-image: url("../img/logo_flag.png");
     background-repeat: no-repeat;
-    background:
+    background-position: left center;
+     
+}
+logo {
+    float: left;
 }
 nav a {
     text-decoration: none;
+    text-align:right;
+    border
     display: block;
     float: left;
-    width: 80px;
+    width: 95px;
 }
 
 .btn {
